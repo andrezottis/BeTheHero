@@ -2,6 +2,16 @@ const express = require('express');
 
 const app = express();
 
+//Inform to JS api that the body requests will be received in JSON format.
+app.use(express.json());
+
+app.post('/users', (request, response) => {
+    return response.json({
+        evento:"Semana omnistack",
+        Aluno:"Andre"
+    });
+});
+
 app.get('/', (request, response) => {
     return response.json({
         evento:"Semana omnistack",
@@ -10,5 +20,3 @@ app.get('/', (request, response) => {
 });
 
 app.listen(3333);
-
-//aaa
