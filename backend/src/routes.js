@@ -1,22 +1,19 @@
 const express = require('express');
 
-const app = express();
+const routes = express.Router();
 
-//Inform to JS api that the body requests will be received in JSON format.
-app.use(express.json());
-
-app.post('/users', (request, response) => {
+routes.post('/users', (request, response) => {
     return response.json({
         evento:"Semana omnistack",
         Aluno:"Andre"
     });
 });
 
-app.get('/', (request, response) => {
+routes.get('/', (request, response) => {
     return response.json({
         evento:"Semana omnistack",
         Aluno:"Andre"
     });
 });
 
-app.listen(3333);
+module.exports = routes;
