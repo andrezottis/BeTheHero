@@ -17,7 +17,7 @@ Essentially this solution is an plataform to connect people that need help with 
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Special Thanks
 I just want to thank you [Rocketseat](https://rocketseat.com.br) for this awesome opportunity to learn NodeJS and React. This week was really amazing and I've learned a lot!
