@@ -28,5 +28,5 @@ I just want to thank you [Rocketseat](https://rocketseat.com.br) for this awesom
 <img src="images/BeTheHero_Cases.PNG" width="700">
 <img src="images/BeTheHero_CasesCad.PNG" width="700">
 <img src="images/BeTheHero_ongCad.PNG" width="700">
-<img src="images/BeTheHero_mobileCases.PNG" width="600">
-<img src="images/BeTheHero_mobileDetails.PNG" width="600">
+<img src="images/BeTheHero_mobileCases.png" height="600">
+<img src="images/BeTheHero_mobileDetails.png" height="600">
